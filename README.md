@@ -1,32 +1,32 @@
 ## Tabla de contenido:
 
-* [Tecnologías Utilizadas](#Tecnologías Utilizadas :)
+* [Tecnologías Utilizadas](#Tecnologías Utilizadas)
 
-* [Empezando](#Empezando :)
-    * [Iniciar el proyecto en modo desarrollo:](#Iniciar el proyecto en modo desarrollo:)
-    * [Construir proyecto y ejecutarlo en JavaScript :](#Construir proyecto y ejecutarlo en JavaScript :)
+* [Empezando](#Empezando)
+    * [Iniciar el proyecto en modo desarrollo:](#Iniciar el proyecto en modo desarrollo)
+    * [Construir proyecto y ejecutarlo en JavaScript :](#Construir proyecto y ejecutarlo en JavaScript)
 
-* [API Endpoints](#API Endpoints :)
+* [API Endpoints](#API Endpoints)
     * [Usuarios](#Usuarios)
     * [Productos](#Productos)
 
-* [Modelo de Datos de Usuarios](#Modelo de Datos de Usuarios :)
+* [Modelo de Datos de Usuarios](#Modelo de Datos de Usuarios)
 
-* [Modelo de Datos de Productos](#Modelo de Datos de Productos :)
+* [Modelo de Datos de Productos](#Modelo de Datos de Productos)
 
-* [Dependencies](#dependencies :)
+* [Dependencies](#Dependencies)
 
-* [Dependencias de desarrollo](#Dependencias de desarrollo :)
+* [Dependencias de desarrollo](#Dependencias de desarrollo)
 
-* [Middleware incluidos](#Middleware incluidos :)
+* [Middleware incluidos](#Middleware incluidos)
 
-* [Variables de Entorno](#Variables de Entorno :)
+* [Variables de Entorno](#Variables de Entorno)
 
-* [Configuración de Compilación TypeScript](#Configuración de Compilación TypeScript :)
+* [Configuración de Compilación TypeScript](#Configuración de Compilación TypeScript)
 
 
 
-## Tecnologías Utilizadas :
+## Tecnologías Utilizadas
 
 - **TypeScript**: Un superconjunto tipado de JavaScript que permite agregar tipos estáticos al código para una mejor verificación de errores y autocompletado.
 
@@ -44,15 +44,9 @@
 
 - **JSON-Web-Token**: Librería para la generación y validación de tokens JWT (JSON Web Tokens) utilizados para autenticación y autorización.
 
+## Empezando
 
-
-
-
-
-
-## Empezando :
-
-### Iniciar el proyecto en modo desarrollo:
+### Iniciar el proyecto en modo desarrollo
 
 - Clonar el repositorio.
 ```
@@ -75,7 +69,7 @@ npm run build
 npm run start
 ```
 
-### Construir proyecto y ejecutarlo en JavaScript :
+### Construir proyecto y ejecutarlo en JavaScript
 
 - Clonar el repositorio.
 ```
@@ -95,22 +89,19 @@ npm run dev
 ```
 
 
-
-
-
-## Crear Base de datos ( PostgreSQL ) :
-### Modelo relacional :
+## Crear Base de datos ( PostgreSQL )
+### Modelo relacional
 ![db_Tablas_Users_Roles](https://user-images.githubusercontent.com/123769609/255394950-4a699dd2-e23f-47c9-8101-06168a49114e.PNG)
 
 ![dv_Tablas_Products_Categories](https://user-images.githubusercontent.com/123769609/255394948-aac8b6a1-025a-4fb1-a6f9-577fb0477f60.PNG)
 
 
-###Script para crear la base de datos :
+###Script para crear la base de datos
 
 Los scripts para la creacion de las tablas Products, Users, Roles y Categories, asi como sus secuencias, funciones y triggers necesarios para que el sistema se ejecte correctamente se encuentran en el archivo `scriptDB.txt`
 
 
-## API Endpoints :
+## API Endpoints
 
 URL principal de la API (Local) : `http://localhost:3000/api`
 
@@ -135,9 +126,7 @@ URL principal de la API (Local) : `http://localhost:3000/api`
 
 
 
-
-
-## Modelo de Datos de Usuarios :
+## Modelo de Datos de Usuarios
 
 ```json
 {
@@ -152,7 +141,7 @@ URL principal de la API (Local) : `http://localhost:3000/api`
 
 
 
-## Modelo de Datos de Productos :
+## Modelo de Datos de Productos
 
 ```json
 {
@@ -172,7 +161,7 @@ URL principal de la API (Local) : `http://localhost:3000/api`
 
 
 
-## dependencies :
+## Dependencies
 
 | Paquete                | Descripción                                                     |
 | ---------------------- | --------------------------------------------------------------- |
@@ -236,7 +225,7 @@ URL principal de la API (Local) : `http://localhost:3000/api`
 
 
 
-## Variables de Entorno :
+## Variables de Entorno
 
 Renombra el `.example.env` a `.env` y coloque las variables de entorno que desees configurar. La librería `dotenv` se encargará de establecerlas. Actualmente, este proyecto utiliza dos variables:
 
@@ -252,10 +241,7 @@ Renombra el `.example.env` a `.env` y coloque las variables de entorno que desee
 
 
 
-
-
-
-## Configuración de Compilación TypeScript :
+## Configuración de Compilación TypeScript
 
 
 TypeScript utiliza el archivo `tsconfig.json` para ajustar las opciones de compilación del proyecto. A continuación se muestra el contenido del archivo `tsconfig.json` con la configuración específica para este proyecto:
