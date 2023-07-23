@@ -3,8 +3,8 @@
 * [Tecnologías Utilizadas](#Tecnologías Utilizadas)
 
 * [Empezando](#Empezando)
-    * [Iniciar el proyecto en modo desarrollo:](#Iniciar el proyecto en modo desarrollo)
-    * [Construir proyecto y ejecutarlo en JavaScript :](#Construir proyecto y ejecutarlo en JavaScript)
+    * [Iniciar el proyecto en modo desarrollo](#Iniciar el proyecto en modo desarrollo)
+    * [Construir proyecto y ejecutarlo en JavaScript](#Construir proyecto y ejecutarlo en JavaScript)
 
 * [API Endpoints](#API Endpoints)
     * [Usuarios](#Usuarios)
